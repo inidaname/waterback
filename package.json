@@ -1,0 +1,21 @@
+{
+  "name": "watermeterRecord",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:devamaz/watermeterRecord.git",
+  "author": "devamaz <ahmad.abdulaziz37@gmail.com>",
+  "scripts": {
+    "start": "node -r esm ./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1"
+  }
+}
